@@ -1,0 +1,6 @@
+1.enter buildroot root folder
+2.make smdk2440_defconfig  or cp configs/smdk2440_defconfig .config
+3.make menuconfig to generate .config
+4.make 
+5.uboot.bin,uImage.bin and rootfs.jffs2 are in /output/Image/
+
